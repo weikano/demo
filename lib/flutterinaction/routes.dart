@@ -5,8 +5,12 @@ import 'package:demo/flutterinaction/basic_widgets/BasicWidgetsImageIconEntry.da
 import 'package:demo/flutterinaction/basic_widgets/BasicWidgetsTextEntry.dart';
 import 'package:demo/flutterinaction/basic_widgets/BasicWidgetsTextFormEntry.dart';
 import 'package:demo/flutterinaction/basic_widgets/BasicWidgetsToggleEntry.dart';
+import 'package:demo/flutterinaction/container_widgets/ContainerWidgetsConstrainedBoxEntry.dart';
+import 'package:demo/flutterinaction/container_widgets/ContainerWidgetsContainerEntry.dart';
+import 'package:demo/flutterinaction/container_widgets/ContainerWidgetsDecoratedBoxEntry.dart';
 import 'package:demo/flutterinaction/container_widgets/ContainerWidgetsEntryPage.dart';
 import 'package:demo/flutterinaction/container_widgets/ContainerWidgetsPaddingEntry.dart';
+import 'package:demo/flutterinaction/container_widgets/ContainerWidgetsTransformEntry.dart';
 import 'package:demo/flutterinaction/custom_widgets/CustomWidgetsEntryPage.dart';
 import 'package:demo/flutterinaction/event_notification/EventNotificationEntryPage.dart';
 import 'package:demo/flutterinaction/file_network/FileNetworkEntryPage.dart';
@@ -61,6 +65,10 @@ Map<RouteInfo, List<RouteInfo>> _routesTree = <RouteInfo, List<RouteInfo>>{
   ],
   ContainerWidgetsEntryPage(): <RouteInfo>[
     ContainerWidgetsPaddingEntry(),
+    ContainerWidgetsConstrainedBoxEntry(),
+    ContainerWidgetsDecoratedBoxEntry(),
+    ContainerWidgetsTransformEntry(),
+    ContainerWidgetsContainerEntry(),
   ],
   ScrollWidgetsEntryPage(): <RouteInfo>[],
   FunctionWidgetsEntryPage(): <RouteInfo>[],
